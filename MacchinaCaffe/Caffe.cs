@@ -26,5 +26,9 @@ namespace MacchinaCaffe
         {
             contZucchero++;
         }
+        public override string ToString()
+        {
+            return Id + ";" + nome + ";" + prezzo + "\n";
+        }
     }
 }
